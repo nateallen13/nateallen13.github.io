@@ -5,7 +5,7 @@
 
 ### PowerApps Projects
 
-[Team Resources/Onboarding App](/sample_page)
+[Team Resources/Onboarding App](/pages/TeamResourcesApp)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
