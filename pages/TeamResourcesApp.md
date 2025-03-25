@@ -15,7 +15,7 @@ layout: default
     <p>SharePoint Lists</p>
   </div>
   <div class="tech-item">
-    <img src="/assets/icons/dataverse.png" alt="Dataverse" />
+    <img src="/assets/icons/dataverse.svg" alt="Dataverse" />
     <p>Dataverse</p>
   </div>
   <div class="tech-item">
