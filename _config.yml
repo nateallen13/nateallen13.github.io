@@ -11,7 +11,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
   <br><br>
   <a href="https://www.linkedin.com/in/example/" target="_blank">
-    <img src="/assets/icons/linkedin.svg" alt="Linked-In" style="width:50%;"> 
+    <img src="/assets/icons/linkedin.svg" alt="Linked-In"> 
   </a>
 
 
