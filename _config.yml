@@ -8,10 +8,14 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Second description 
   <br><br>
-   <a href="https://www.linkedin.com/in/example/" target="_blank">
-    <img src="/assets/icons/linkedin.svg" alt="Linked-In" style="width:30px; height:auto;"> 
-  </a>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
+   <div style="display: flex; align-items: center; gap: 8px;">
+    <a href="https://www.linkedin.com/in/example/" target="_blank">
+        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" style="width:24px; height:auto;">
+    </a>
+    <a href="https://www.linkedin.com/in/example/" target="_blank" style="text-decoration: none; color: inherit;">
+        View My LinkedIn Profile
+    </a>
+</div>
 
 
 remote_theme: pages-themes/minimal@v0.2.0
