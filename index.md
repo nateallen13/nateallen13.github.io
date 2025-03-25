@@ -3,9 +3,9 @@
 
 ---
 
-### Category Name 1 
+### PowerApps Projects
 
-[Project 1 Title](/sample_page)
+[Team Resources/Onboarding App](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
