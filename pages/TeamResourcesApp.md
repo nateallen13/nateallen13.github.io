@@ -1,23 +1,4 @@
-<style>
-  .tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-  }
-  .tech-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80px; /* Adjust width for compact layout */
-    text-align: center;
-    font-size: 12px; /* Reduce text size */
-  }
-  .tech-item img {
-    width: 30px; /* Set small icon size */
-    height: 30px;
-  }
-</style>
+
 
 ## Team Resources/Onboarding PowerApp
 
@@ -50,7 +31,29 @@ layout: default
     <p>JSON</p>
   </div>
   <div class="tech-item">
+    
     <img src="/assets/icons/azure.png" alt="Azure Security Groups" />
     <p>Azure Security Groups</p>
   </div>
 </div>
+
+<style>
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px; /* Adjust width for compact layout */
+    text-align: center;
+    font-size: 12px; /* Reduce text size */
+  }
+  .tech-item img {
+    width: 30px; /* Set small icon size */
+    height: 30px;
+  }
+</style>
