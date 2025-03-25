@@ -12,8 +12,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   Current Certificatations
   <br>
-  <img src="/assets/icons/pl900.png" alt="PL-900 Certification" width="50" height="50">
-  <img src="/assets/icons/pl300.png" alt="PL-300 Certification" width="50" height="50">
+  <img src="/assets/icons/pl900.png" alt="PL-900 Certification" style="width:50%;>
+  <img src="/assets/icons/pl300.png" alt="PL-300 Certification" style="width:50%;>
 
 
 remote_theme: pages-themes/minimal@v0.2.0
