@@ -15,7 +15,7 @@ This project incorporates various technologies and concepts to create a robust a
 
 <div class="tech-stack">
   <div class="tech-item">
-    <img src="/assets/icons/sharepoint.png" alt="SharePoint" />
+    <img src="/assets/icons/Sharepoint.png" alt="SharePoint" />
     <p>SharePoint Lists</p>
   </div>
   <div class="tech-item">
