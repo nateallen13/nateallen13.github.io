@@ -1,6 +1,10 @@
 title: Nate Allen # your name (or website title) here
 logo: "/images/UserPicture.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+button:
+  text: "View Kayak Rentals"
+  url: "/kayak-rentals"
+  style: "btn-primary"  # You can define CSS classes if needed
   <br><br>
   A results-driven Data Analyst with a strong background in leveraging the Microsoft Power Platform to develop data-driven solutions that streamline workflows, enhance decision-making, and drive operational efficiency. With experience in both government and grassroots initiatives, including the Peace Corps, he combines technical expertise with a user-centered, problem-solving approach to create innovative and impactful solutions at all levels.
   <br><br>
