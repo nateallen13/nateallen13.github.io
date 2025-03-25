@@ -19,7 +19,7 @@ layout: default
     <p>Dataverse</p>
   </div>
   <div class="tech-item">
-    <img src="/assets/icons/powerbi.png" alt="Power BI" />
+    <img src="/assets/icons/powerbi.svg" alt="Power BI" />
     <p>Power BI Dataflows</p>
   </div>
   <div class="tech-item">
