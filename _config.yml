@@ -13,7 +13,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/example/" target="_blank">
     <img src="/assets/icons/linkedin.png" alt="Linked-In" style="width:50%;"> 
   </a>
-<br><br>
+
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
