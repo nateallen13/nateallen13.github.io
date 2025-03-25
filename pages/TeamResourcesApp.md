@@ -1,3 +1,24 @@
+<style>
+  .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px; /* Adjust width for compact layout */
+    text-align: center;
+    font-size: 12px; /* Reduce text size */
+  }
+  .tech-item img {
+    width: 30px; /* Set small icon size */
+    height: 30px;
+  }
+</style>
+
 ## Team Resources/Onboarding PowerApp
 
 **Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -7,15 +28,9 @@ title: Project Overview
 layout: default
 ---
 
-# 🚀 Project Details
-
-This project incorporates various technologies and concepts to create a robust and efficient solution.
-
-## 🔧 **Tech Stack Used**
-
 <div class="tech-stack">
   <div class="tech-item">
-    <img src="/assets/icons/Sharepoint.png" alt="SharePoint" />
+    <img src="/assets/icons/sharepoint.png" alt="SharePoint" />
     <p>SharePoint Lists</p>
   </div>
   <div class="tech-item">
