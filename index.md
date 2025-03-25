@@ -1,4 +1,5 @@
-## Portfolio
+## Portfolio <a href="pdf/sample_presentation.pdf" target="_blank" style="float: right; padding: 5px 10px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-size: 14px;">Resume</a>
+
 
 ---
 
