@@ -7,8 +7,7 @@
 
 [Team Resources/Onboarding App](/pages/TeamResourcesApp)
  <a href="/pages/TeamResourcesApp">
-  <!--<img src="images/screenshots/OnboardingApp.png?raw=true"/> -->
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
+ <img src="images/screenshots/ThumbnailResourceApp.png?raw=true"/>
 </a>
 Stay put...more projects are coming soon!
 
