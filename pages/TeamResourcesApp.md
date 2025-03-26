@@ -42,12 +42,7 @@ layout: default
     <p>Power Automate</p>
   </div>
   <div class="tech-item">
-    <img src="/assets/icons/json.png" alt="JSON" />
-    <p>JSON</p>
-  </div>
-  <div class="tech-item">
-    
-    <img src="/assets/icons/azure.png" alt="Azure Security Groups" />
+    <img src="/assets/icons/azure.svg" alt="Azure Security Groups" />
     <p>Azure Security Groups</p>
   </div>
 </div>
