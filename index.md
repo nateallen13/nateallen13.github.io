@@ -11,7 +11,9 @@
 <a href="/pages/TeamResourcesApp" style="font-size: 20px; font-weight: bold;">
   Team Resources/Onboarding App
 </a>
-  <span><p> Updated March 26, 2025 </p></span>
+  <span style="font-size: 14px; color: gray;">
+    Updated March 26, 2025
+  </span>
 </div>
 
  <a href="/pages/TeamResourcesApp">
