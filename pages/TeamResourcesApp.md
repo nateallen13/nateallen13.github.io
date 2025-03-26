@@ -1,8 +1,21 @@
 
 
-## Team Resources/Onboarding PowerApp
+## Team Resources & Onboarding PowerApp
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** 
+The Team Resources & Onboarding PowerApp is a centralized solution designed to streamline team management and onboarding for any office, department, or organization. 
+
+This user-friendly application enables supervisors to:
+* Create and manage team profiles
+* Assign team members and delegate tasks
+* Build a shared repository of resources, including web links, documents, and YouTube videos
+
+For team members, the app provides an intuitive interface to:
+* Learn about their team and colleagues
+* Track and complete assigned tasks
+* Easily access team resources
+
+This PowerApp was developed to solve a common organizational challenge—ensuring new employees have the tools they need to succeed while giving team leaders a non-technical platform to provide ongoing support and resources.
 
 ---
 title: Project Overview
@@ -23,7 +36,7 @@ layout: default
     <p>Power BI Dataflows</p>
   </div>
   <div class="tech-item">
-    <img src="/assets/icons/powerautomate.png" alt="Power Automate" />
+    <img src="/assets/icons/powerautomate.svg" alt="Power Automate" />
     <p>Power Automate</p>
   </div>
   <div class="tech-item">
