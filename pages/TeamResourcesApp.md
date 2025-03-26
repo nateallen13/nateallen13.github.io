@@ -26,6 +26,10 @@ layout: default
 
 <div class="tech-stack">
   <div class="tech-item">
+    <img src="/assets/icons/powerapps.svg" alt="Canvas Power App" />  
+    <p>Canvas Power App</p>
+  </div>
+  <div class="tech-item">
     <img src="/assets/icons/sharepoint.png" alt="SharePoint" />
     <p>SharePoint Lists</p>
   </div>
