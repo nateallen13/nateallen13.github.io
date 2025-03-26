@@ -20,8 +20,7 @@ This PowerApp was developed to solve a common organizational challenge—ensurin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
 
 ---
-title: Project Overview
-layout: default
+This Project Leveraged the Following Programs:
 ---
 
 <div class="tech-stack">
