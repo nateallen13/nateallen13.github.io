@@ -10,7 +10,8 @@
   <img src="images/screenshots/OnboardingApp.png?raw=true"/>
 </a>
 Stay put...more projects are coming soon!
-<!--
+
+{% if false %}
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -30,7 +31,7 @@ Stay put...more projects are coming soon!
 - [Project 5 Title](http://example.com/)
 
 ---
--->
+{% endif %}
 
 
 
