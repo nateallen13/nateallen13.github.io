@@ -21,6 +21,7 @@ description: >
       View My Resume
     </a>
   </div>
+  <br><br>
   <div style="display: flex; align-items: center; gap: 8px;">
   <img src="/assets/icons/pl300.png" alt="PL-300 Certificate" style="width:100px; height:auto;">
   <img src="/assets/icons/pl900.png" alt="PL-900 Certificate" style="width:100px; height:auto;">
