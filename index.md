@@ -6,7 +6,9 @@
 ### PowerApps Projects
 
 [Team Resources/Onboarding App](/pages/TeamResourcesApp)
-<img src="images/screenshots/OnboardingApp.png?raw=true"/>
+ <a href="/pages/TeamResourcesApp">
+  <img src="images/screenshots/OnboardingApp.png?raw=true"/>
+</a>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
