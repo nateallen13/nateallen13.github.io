@@ -4,8 +4,9 @@
 ---
 
 ### PowerApps Projects
-
+{% if false %}
 [Team Resources/Onboarding App](/pages/TeamResourcesApp) 
+{% endif %}
 <a href="/pages/TeamResourcesApp" style="font-size: 20px; font-weight: bold;">
   Team Resources/Onboarding App
 </a>
