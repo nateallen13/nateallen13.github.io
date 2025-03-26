@@ -62,7 +62,7 @@ layout: default
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80px; /* Adjust width for compact layout */
+    width: 70px; /* Adjust width for compact layout */
     text-align: center;
     font-size: 12px; /* Reduce text size */
   }
