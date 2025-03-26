@@ -6,8 +6,8 @@
 ### PowerApps Projects
 
 [Team Resources/Onboarding App](/pages/TeamResourcesApp) 
-<a href="/pages/TeamResourcesApp" style="color:#007bff; font-weight:bold; text-decoration:underline;">
-  [Team Resources/Onboarding App]
+<a href="/pages/TeamResourcesApp" style="font-size: 20px; font-weight: bold;">
+  Team Resources/Onboarding App
 </a>
 <p> Updated March 26, 2025 </p>
  <a href="/pages/TeamResourcesApp">
