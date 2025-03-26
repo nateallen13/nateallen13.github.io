@@ -9,7 +9,8 @@
  <a href="/pages/TeamResourcesApp">
   <img src="images/screenshots/OnboardingApp.png?raw=true"/>
 </a>
-
+Stay put...more projects are coming soon!
+<!--
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -29,7 +30,7 @@
 - [Project 5 Title](http://example.com/)
 
 ---
-
+-->
 
 
 
