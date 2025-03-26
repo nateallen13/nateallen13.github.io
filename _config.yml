@@ -3,13 +3,13 @@ logo: "/images/UserPicture.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br>
     <div style="display: flex; align-items: center; gap: 8px;">
-    <a href="www.linkedin.com/in/nate-allen-234ab099" target="_blank">
-        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" style="width:24px; height:auto;">
-    </a>
-    <a href="www.linkedin.com/in/nate-allen-234ab099" target="_blank" style="text-decoration: none; color: inherit;">
-        View My LinkedIn Profile
-    </a>
-    </div>
+  <a href="https://www.linkedin.com/in/nate-allen-234ab099" target="_blank">
+    <img src="/assets/icons/linkedin.svg" alt="LinkedIn" style="width:24px; height:auto;">
+  </a>
+  <a href="https://www.linkedin.com/in/nate-allen-234ab099" target="_blank" style="text-decoration: none; color: inherit;">
+    View My LinkedIn Profile
+  </a>
+</div>
   <br>
     <div style="display: flex; align-items: center; gap: 8px;">
     <a href="/pdf/Resume.pdf" target="_blank">
