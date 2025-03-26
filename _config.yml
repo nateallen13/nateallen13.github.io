@@ -10,26 +10,19 @@ description: > # your text below (remove <br> elements if you don't need line br
         View My LinkedIn Profile
     </a>
     </div>
-    
   <br>
     <div style="display: flex; align-items: center; gap: 8px;">
-    <a href="/pdf/Resume.pdf" target="_blank">Resume</a>
+    <a href="/pdf/Resume.pdf" target="_blank">
         <img src="/assets/icons/resumeicon.svg" alt="Resume" style="width:24px; height:auto;">
+    </a>
+    <a href="/pdf/Resume.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+        View My Resume
     </a>
     </div>
   <br><br>
   A results-driven Data Analyst with a strong background in leveraging the Microsoft Power Platform to develop data-driven solutions that streamline workflows, enhance decision-making, and drive operational efficiency. With experience in both government and grassroots initiatives, including the Peace Corps, he combines technical expertise with a user-centered, problem-solving approach to create innovative and impactful solutions at all levels.
   <br><br>
   Second description 
-  <br><br>
-   <div style="display: flex; align-items: center; gap: 8px;">
-    <a href="https://www.linkedin.com/in/example/" target="_blank">
-        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" style="width:24px; height:auto;">
-    </a>
-    <a href="https://www.linkedin.com/in/example/" target="_blank" style="text-decoration: none; color: inherit;">
-        View My LinkedIn Profile
-    </a>
-  </div>
 
 
 remote_theme: pages-themes/minimal@v0.2.0
