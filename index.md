@@ -7,10 +7,13 @@
 {% if false %}
 [Team Resources/Onboarding App](/pages/TeamResourcesApp) 
 {% endif %}
+<div style="display: flex; justify-content: space-between; align-items: center;">
 <a href="/pages/TeamResourcesApp" style="font-size: 20px; font-weight: bold;">
   Team Resources/Onboarding App
 </a>
-<p> Updated March 26, 2025 </p>
+  <span><p> Updated March 26, 2025 </p></span>
+</div>
+
  <a href="/pages/TeamResourcesApp">
  <img src="images/screenshots/ThumbnailResourceApp.png?raw=true"/>
 </a>
