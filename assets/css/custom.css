@@ -1,4 +1,13 @@
 body {
-    background-color: hotpink !important;
-  }
+  background-color: hotpink !important;
+}
+
+body::before {
+  content: "✅ custom.css is working";
+  display: block;
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
 }
