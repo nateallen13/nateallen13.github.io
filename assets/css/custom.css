@@ -77,3 +77,29 @@ body.index-html .brand-link {
     display: none !important;
   }
 }
+
+
+/*MAIN PAGE PROJECT VIEW */
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.project-date {
+  font-size: 14px;
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  .project-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
