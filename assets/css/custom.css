@@ -76,3 +76,16 @@
     gap: 20px;
   }
 }
+
+  body.index-html .site-branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* 👈 Increase spacing between title and image */
+}
+
+body.index-html .brand-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
