@@ -1,14 +1,18 @@
-/* Default (Desktop & Larger Screens) — Applies to all pages */
+/* ===========================
+   GLOBAL STYLES (All screens)
+=========================== */
+
+/* Title + Logo layout for all pages (desktop & default layout) */
 .site-branding {
   display: flex;
-  flex-direction: column; /* Stack title above logo */
+  flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
 .brand-link {
   display: flex;
-  flex-direction: column; /* Stack title above logo */
+  flex-direction: column;
   align-items: center;
   text-decoration: none;
   color: inherit;
@@ -19,7 +23,7 @@
   width: auto;
 }
 
-/* Responsive YouTube Video */
+/* Responsive YouTube embed */
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -37,14 +41,44 @@
   border: 0;
 }
 
-/* Mobile Styles (Phones only) */
+/* Back Link Styling */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===========================
+   PAGE-SPECIFIC STYLES
+=========================== */
+
+/* Main Page (index) - Add spacing between title and logo */
+body.index-html .site-branding {
+  gap: 30px;
+}
+
+body.index-html .brand-link {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* ===========================
+   MOBILE STYLES (Phones only)
+=========================== */
 @media only screen and (max-width: 600px) {
 
-  /* Mobile — Onboarding Page ONLY */
+  /* Onboarding Page Only */
   body.pages-teamresourcesapp-html .site-branding,
   body.pages-teamresourcesapp-html .brand-link {
-    flex-direction: flex-start; /* Logo and title side by side */
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start; /* Align left */
     align-items: center;
     gap: 20px;
   }
@@ -58,34 +92,4 @@
     display: none !important;
   }
 
-  .back-link {
-  display: inline-block;
-  margin-top: 20px;
-  text-decoration: none;
-  color: inherit; /* matches the title */
-}
-
-.back-link:hover {
-  text-decoration: none; /* prevent underline */
-  color: inherit;        /* matches hover behavior of title */
-}
-
-@media only screen and (max-width: 600px) {
-  body.pages-teamresourcesapp-html .brand-link {
-    flex-direction: row-reverse;
-    gap: 20px;
-  }
-}
-
-  body.index-html .site-branding {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; /* 👈 Increase spacing between title and image */
-}
-
-body.index-html .brand-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
