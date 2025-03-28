@@ -69,3 +69,10 @@
   text-decoration: none; /* prevent underline */
   color: inherit;        /* matches hover behavior of title */
 }
+
+@media only screen and (max-width: 600px) {
+  body.pages-teamresourcesapp-html .brand-link {
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+}
