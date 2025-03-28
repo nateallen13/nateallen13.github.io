@@ -57,15 +57,15 @@
   body.pages-teamresourcesapp-html header > p {
     display: none !important;
   }
-}
-.back-link {
+
+  .back-link {
   display: inline-block;
-  margin: 20px 0;
-  font-size: 16px;
-  color: #007bff;
+  margin-top: 20px;
   text-decoration: none;
+  color: inherit; /* matches the title */
 }
 
 .back-link:hover {
-  text-decoration: underline;
+  text-decoration: none; /* prevent underline */
+  color: inherit;        /* matches hover behavior of title */
 }
