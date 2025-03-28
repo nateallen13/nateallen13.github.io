@@ -77,7 +77,7 @@ body.index-html .brand-link {
   /* Onboarding Page Only */
   body.pages-teamresourcesapp-html .site-branding,
   body.pages-teamresourcesapp-html .brand-link {
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
