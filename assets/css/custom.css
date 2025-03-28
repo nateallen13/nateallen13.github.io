@@ -78,9 +78,12 @@ body.index-html .brand-link {
   body.pages-teamresourcesapp-html .site-branding,
   body.pages-teamresourcesapp-html .brand-link {
     flex-direction: row;
-    justify-content: flex-start; /* Align left */
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    width: 100%;            /* 👈 Ensures container takes full width */
+    padding-left: 16px;     /* 👈 Optional: adds breathing room from screen edge */
+    box-sizing: border-box; /* 👈 Makes padding count inside total width */
   }
 
   body.pages-teamresourcesapp-html .site-logo {
