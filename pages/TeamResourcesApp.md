@@ -3,7 +3,9 @@
 ## Team Resources & Onboarding PowerApp
 Date Added: March 26, 2025
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 **Project description:** 
 
