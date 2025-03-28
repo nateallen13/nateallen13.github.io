@@ -1,6 +1,7 @@
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
 ## Team Resources & Onboarding PowerApp
+<br>
 Date Added: March 26, 2025
 
 <div class="video-wrapper">
