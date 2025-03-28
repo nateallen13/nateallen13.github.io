@@ -74,6 +74,26 @@ body.index-html .brand-link {
 =========================== */
 @media only screen and (max-width: 600px) {
 
+  /* Onboarding Page Only - Hide entire header */
+  body.pages-teamresourcesapp-html header {
+    display: none !important;
+  }
+
+  /* (Optional) Onboarding adjustments can stay here if needed later
+  body.pages-teamresourcesapp-html .site-logo {
+    width: 60px !important;
+    height: auto !important;
+  }
+  */
+
+}
+
+/* OLD VERSION */
+/* ===========================
+   MOBILE STYLES (Phones only)
+=========================== 
+@media only screen and (max-width: 600px) {
+
   /* Onboarding Page Only */
   body.pages-teamresourcesapp-html .site-branding,
   body.pages-teamresourcesapp-html .brand-link {
@@ -96,3 +116,4 @@ body.index-html .brand-link {
   }
 
 }
+*/
