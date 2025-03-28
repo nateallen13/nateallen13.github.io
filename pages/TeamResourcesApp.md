@@ -3,6 +3,8 @@
 ## Team Resources & Onboarding PowerApp
 Date Added: March 26, 2025
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
+
 **Project description:** 
 
 The Team Resources & Onboarding PowerApp is a centralized solution designed to streamline team management and onboarding for any office, department, or organization. 
@@ -18,8 +20,6 @@ For team members, the app provides an intuitive interface to:
 * Easily access team resources
 
 This PowerApp was developed to solve a common organizational challenge—ensuring new employees have the tools they need to succeed while giving team leaders a non-technical platform to provide ongoing support and resources.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
 
 ---
 This Project Leveraged the Following Programs:
