@@ -1,4 +1,4 @@
-
+<a href="{{ "/" | absolute_url }}" class="back-link">← Back</a>
 
 ## Team Resources & Onboarding PowerApp
 Date Added: March 26, 2025
