@@ -43,7 +43,7 @@
   /* Mobile — Onboarding Page ONLY */
   body.pages-teamresourcesapp-html .site-branding,
   body.pages-teamresourcesapp-html .brand-link {
-    flex-direction: row; /* Logo and title side by side */
+    flex-direction: flex-start; /* Logo and title side by side */
     justify-content: center;
     align-items: center;
     gap: 20px;
