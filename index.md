@@ -7,11 +7,11 @@
 {% if false %}
 [Team Resources/Onboarding App](/pages/TeamResourcesApp) 
 {% endif %}
-<div style="display: flex; justify-content: space-between; align-items: center;">
-<a href="/pages/TeamResourcesApp" style="font-size: 16px; font-weight: bold;">
-  Team Resources/Onboarding App
-</a>
-  <span style="font-size: 14px; color: gray;">
+<div class="project-row">
+  <a href="/pages/TeamResourcesApp" class="project-link">
+    Team Resources/Onboarding App
+  </a>
+  <span class="project-date">
     Updated March 26, 2025
   </span>
 </div>
