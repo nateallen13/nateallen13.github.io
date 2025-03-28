@@ -73,26 +73,7 @@ body.index-html .brand-link {
    MOBILE STYLES (Phones only)
 =========================== */
 @media only screen and (max-width: 600px) {
-
-  /* Onboarding Page Only */
-  body.pages-teamresourcesapp-html .site-branding,
-  body.pages-teamresourcesapp-html .brand-link {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    width: 100%;            /* 👈 Ensures container takes full width */
-    padding-left: 16px;     /* 👈 Optional: adds breathing room from screen edge */
-    box-sizing: border-box; /* 👈 Makes padding count inside total width */
-  }
-
-  body.pages-teamresourcesapp-html .site-logo {
-    width: 60px !important;
-    height: auto !important;
-  }
-
-  body.pages-teamresourcesapp-html header > p {
+  body.pages-teamresourcesapp-html header {
     display: none !important;
   }
-
 }
