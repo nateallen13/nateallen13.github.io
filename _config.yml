@@ -2,7 +2,7 @@ title: Nate Allen # your name (or website title) here
 logo: "/images/UserPicture.png?raw=true" # your photo (or logo) here
 description: >
   <br>
-  <div>
+  <div style="display: flex; align-items: center; gap: 8px;">
     <a href="mailto:nallen@patchmaker-collab.com" style="text-decoration: none; color: #0072b1;">
     <img src="/assets/icons/Email.svg" alt="Email" style="width:24px; height:auto;">
       nallen@patchmaker-collab.com
