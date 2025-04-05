@@ -7,10 +7,19 @@ permalink: /pages/EmailDistributionApp/
 
 ## Email Distribution PowerApp
 Date Added: April 6, 2025
+<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
 
-<div class="video-wrapper">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    startImageFader("emailAppImage", [
+      "/images/screenshots/EmailApp1.png",
+      "/images/screenshots/EmailApp2.png"
+    ]);
+  });
+</script>
+<!--<div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
-</div>
+</div>-->
 
 **Project description:** 
 
