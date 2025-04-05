@@ -8,7 +8,7 @@ permalink: /pages/EmailDistributionApp/
 ## Email Distribution PowerApp
 Date Added: April 6, 2025
 <img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
-
+<!--
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     startImageFader("emailAppImage", [
@@ -17,6 +17,7 @@ Date Added: April 6, 2025
     ]);
   });
 </script>
+-->
 <script>
   function openLightbox(imageUrl) {
     const lightbox = document.getElementById('lightbox');
@@ -31,10 +32,10 @@ Date Added: April 6, 2025
 </script>
 
 <div class="gallery">
-  <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
   <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
-  <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
   <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
+  <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
+  <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
 </div>
 
 
