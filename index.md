@@ -32,8 +32,21 @@
   </span>
 </div>
 
+<style>
+  #emailAppImage {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+  }
+
+  .fade-out {
+    opacity: 0;
+  }
+</style>
+
 <a href="/pages/EmailDistributionApp">
-  <img id="emailAppImage" src="/images/screenshots/EmailApp1.png" style="max-width: 100%; height: auto;" />
+  <img id="emailAppImage" src="/images/screenshots/EmailApp1.png" />
 </a>
 
 <script>
@@ -42,10 +55,20 @@
     "/images/screenshots/EmailApp2.png"
   ];
   let index = 0;
+  const imageElement = document.getElementById("emailAppImage");
 
   setInterval(() => {
-    index = (index + 1) % images.length;
-    document.getElementById("emailAppImage").src = images[index];
+    // Fade out
+    imageElement.classList.add("fade-out");
+
+    setTimeout(() => {
+      // Change image source once faded out
+      index = (index + 1) % images.length;
+      imageElement.src = images[index];
+
+      // Fade back in
+      imageElement.classList.remove("fade-out");
+    }, 1000); // Match this with CSS transition duration
   }, 5000);
 </script>
 
