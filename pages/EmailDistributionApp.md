@@ -34,6 +34,7 @@ Date Added: April 6, 2025
   <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
   <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
   <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
+  <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
 </div>
 
 
