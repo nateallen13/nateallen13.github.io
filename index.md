@@ -39,7 +39,7 @@
 <script>
   const images = [
     "images/screenshots/UserPicture.jpg",
-    "images/screenshots/dummy_thumbnail.jpg"
+    "images/dummy_thumbnail.jpg"
   ];
   let index = 0;
 
