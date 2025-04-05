@@ -33,16 +33,16 @@
 </div>
 
  <a href="/pages/EmailDistributionApp">
- <img src="images/screenshots/dummy_thumbnail.jpg?raw=true"/>
+ <img src="images/dummy_thumbnail.jpg?raw=true"/>
 </a>
 Stay put...more projects are coming soon!
 
-
+{% if false %}
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-{% if false %}
+
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
