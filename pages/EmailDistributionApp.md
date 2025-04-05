@@ -20,22 +20,29 @@ Date Added: April 6, 2025
 <!--<div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
 </div>-->
+**VIDEO WALKTHROUGH COMING SOON**
 
 **Project description:** 
 
-The Team Resources & Onboarding PowerApp is a centralized solution designed to streamline team management and onboarding for any office, department, or organization. 
+The Email Distribution PowerApp was built to address the following business requirements:
+* Ability to quickly access and update Points of Contact (POC) - both internal external - associated to a specific account...in this case, Healthcare Facilities (HCF).
+* Ability to send a report (as an attachment) to the HCF's Points of Contact with automated email language based on the report type.
+* Ability to track reports that have already been sent
+ 
+In order to achieve these business requirements, this app was built with the following features:
+POINTS OF CONTACT SCREEN
+* Quickly review the different POCs associated to each HCF based on a category
+* Instantly unassign POCs from accounts in bulk (useful when accounting for internal/external staffing changes or portfolio assignment restructuring).
+MONTHLY REPORT DISTRIBUTION SCREEN
+* Filtering capabilities of existing HCF accounts
+* Pre-populate email language based on user-defined inputs (ex: Account name, Report Type, Reporting Period, etc.)
+* Filterable logging of reports for staff to know which reports have already been sent to specific HCFs.
+*  Quality assurance measures incorporated:
+    * Ability to review email language and make modifications either directly in app or by copy-paste from external text
+    * Send Test Email to self to ensure the report email and attachments are correct
+    * Verification of email accuracy input required before being able to send offical report email
 
-This user-friendly application enables supervisors to:
-* Create and manage team profiles
-* Assign team members and delegate tasks
-* Build a shared repository of resources, including web links, documents, and YouTube videos
-
-For team members, the app provides an intuitive interface to:
-* Learn about their team and colleagues
-* Track and complete assigned tasks
-* Easily access team resources
-
-This PowerApp was developed to solve a common organizational challenge—ensuring new employees have the tools they need to succeed while giving team leaders a non-technical platform to provide ongoing support and resources.
+This two-screen PowerApp delivers substantial power to end-users to ensure QA in the reports being sent, proper tracking of report history, and maintaining accurate Points of Contact internally and externally.
 
 ---
 This Project Leveraged the Following Programs:
@@ -48,19 +55,11 @@ This Project Leveraged the Following Programs:
   </div>
   <div class="tech-item">
     <img src="/assets/icons/sharepoint.png" alt="SharePoint" />
-    <p>SharePoint Lists</p>
+    <p>SharePoint Document Library</p>
   </div>
   <div class="tech-item">
     <img src="/assets/icons/dataverse.svg" alt="Dataverse" />
     <p>Dataverse</p>
-  </div>
-  <div class="tech-item">
-    <img src="/assets/icons/powerbi.svg" alt="Power BI" />
-    <p>Power BI Dataflows</p>
-  </div>
-  <div class="tech-item">
-    <img src="/assets/icons/powerautomate.svg" alt="Power Automate" />
-    <p>Power Automate</p>
   </div>
   <div class="tech-item">
     <img src="/assets/icons/azure.svg" alt="Azure" />
