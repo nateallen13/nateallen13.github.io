@@ -33,13 +33,13 @@
 </div>
 
 <a href="/pages/EmailDistributionApp">
-  <img id="emailAppImage" src="/images/screenshots/OnboardingApp.png" style="max-width: 100%; height: auto;" />
+  <img id="emailAppImage" src="/images/screenshots/EmailApp1.png" style="max-width: 100%; height: auto;" />
 </a>
 
 <script>
   const images = [
-    "/images/screenshots/OnboardingApp.png",
-    "/images/screenshots/ThumbnailResourceApp.png"
+    "/images/screenshots/EmailApp1.png",
+    "/images/screenshots/EmailApp2.png"
   ];
   let index = 0;
 
