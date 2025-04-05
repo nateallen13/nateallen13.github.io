@@ -28,6 +28,22 @@
    <!--[if lt IE 9]>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
+
+   <style>
+     .fade-image {
+       max-width: 100%;
+       height: auto;
+       transition: opacity 2s ease-in-out;
+       opacity: 1;
+     }
+   
+     .fade-out {
+       opacity: 0;
+     }
+   </style>
+
+
+   
    
 </head>
 <body class="{{ page.url | slugify }}">
@@ -62,5 +78,23 @@
       </footer>
    </div>
    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+   <script>
+     function startImageFader(id, imageList, interval = 6000, fadeDuration = 2000) {
+       const imageElement = document.getElementById(id);
+       let index = 0;
+   
+       setInterval(() => {
+         imageElement.classList.add("fade-out");
+   
+         setTimeout(() => {
+           index = (index + 1) % imageList.length;
+           imageElement.src = imageList[index];
+           imageElement.classList.remove("fade-out");
+         }, fadeDuration);
+       }, interval);
+     }
+   </script>
+   
 </body>
 </html>
