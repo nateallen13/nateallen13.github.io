@@ -1,3 +1,7 @@
+---
+layout: default
+title: Team Resources
+---
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
 ## Team Resources & Onboarding PowerApp
