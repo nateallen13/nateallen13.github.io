@@ -8,28 +8,6 @@ permalink: /pages/EmailDistributionApp/
 ## Email Distribution PowerApp  
 Date Added: April 6, 2025
 
-<!-- Image Gallery with Scroll and Arrows -->
-<div class="gallery-wrapper">
-  <button class="gallery-nav left" onclick="scrollGallery(-1)">&#10094;</button>
-
-  <div class="gallery-row" id="galleryRow">
-    <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
-    <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
-    <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
-    <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
-  </div>
-
-  <button class="gallery-nav right" onclick="scrollGallery(1)">&#10095;</button>
-</div>
-
-<!-- Lightbox container -->
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img" src="" />
-</div>
-
-<!-- Fade Image Preview -->
-<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
-
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     startImageFader("emailAppImage", [
@@ -57,6 +35,30 @@ Date Added: April 6, 2025
     container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
   }
 </script>
+
+<!-- Image Gallery with Scroll and Arrows -->
+<div class="gallery-wrapper">
+  <button class="gallery-nav left" onclick="scrollGallery(-1)">&#10094;</button>
+
+  <div class="gallery-row" id="galleryRow">
+    <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
+    <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
+    <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
+    <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
+  </div>
+
+  <button class="gallery-nav right" onclick="scrollGallery(1)">&#10095;</button>
+</div>
+
+<!-- Lightbox container -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" />
+</div>
+
+<!-- Fade Image Preview -->
+<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
+
+
 
 <!-- GALLERY + LIGHTBOX STYLES -->
 <style>
