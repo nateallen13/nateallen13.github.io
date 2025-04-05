@@ -1,12 +1,13 @@
 ## Projects
 
-
 ---
 
 ### PowerApps Projects
+
 {% if false %}
 [Team Resources/Onboarding App](/pages/TeamResourcesApp) 
 {% endif %}
+
 <div class="project-row">
   <a href="/pages/TeamResourcesApp" class="project-link">
     Team Resources/Onboarding App
@@ -16,13 +17,14 @@
   </span>
 </div>
 
- <a href="/pages/TeamResourcesApp">
- <img src="images/screenshots/ThumbnailResourceApp.png?raw=true"/>
+<a href="/pages/TeamResourcesApp">
+  <img src="/images/screenshots/ThumbnailResourceApp.png" />
 </a>
 
 {% if false %}
 [Email Distribution App](/pages/EmailDistributionApp) 
 {% endif %}
+
 <div class="project-row">
   <a href="/pages/EmailDistributionApp" class="project-link">
     Email Distribution App
@@ -37,22 +39,24 @@
 </a>
 
 <script>
-  startImageFader("emailAppImage", [
-    "/images/screenshots/EmailApp1.png",
-    "/images/screenshots/EmailApp2.png"
-  ]);
+  document.addEventListener("DOMContentLoaded", function () {
+    startImageFader("emailAppImage", [
+      "/images/screenshots/EmailApp1.png",
+      "/images/screenshots/EmailApp2.png"
+    ]);
+  });
 </script>
-
 
 Stay put...more projects are coming soon!
 
 {% if false %}
 ---
+
 [Project 2 Title](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-
 ---
+
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -68,10 +72,6 @@ Stay put...more projects are coming soon!
 
 ---
 
-
-
-
----
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 {% endif %}
-<!-- Remove above link if you don't want to attibute -->
+<!-- Remove above link if you don't want to attribute -->
