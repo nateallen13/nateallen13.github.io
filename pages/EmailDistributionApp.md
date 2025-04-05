@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Email Distribution App
+permalink: /pages/EmailDistributionApp/
 ---
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
