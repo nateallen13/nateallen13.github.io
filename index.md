@@ -32,43 +32,17 @@
   </span>
 </div>
 
-<style>
-  #emailAppImage {
-    max-width: 100%;
-    height: auto;
-    transition: opacity 2s ease-in-out;
-    opacity: 1;
-  }
-
-  .fade-out {
-    opacity: 0;
-  }
-</style>
-
 <a href="/pages/EmailDistributionApp">
-  <img id="emailAppImage" src="/images/screenshots/EmailApp1.png" />
+  <img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" />
 </a>
 
 <script>
-  const images = [
+  startImageFader("emailAppImage", [
     "/images/screenshots/EmailApp1.png",
     "/images/screenshots/EmailApp2.png"
-  ];
-  let index = 0;
-  const imageElement = document.getElementById("emailAppImage");
-
-  setInterval(() => {
-    // Fade out (longer)
-    imageElement.classList.add("fade-out");
-
-    // Wait 2s (match transition time), then switch image and fade in
-    setTimeout(() => {
-      index = (index + 1) % images.length;
-      imageElement.src = images[index];
-      imageElement.classList.remove("fade-out");
-    }, 2000); // Match with CSS transition time
-  }, 6000); // Slightly longer interval to allow for fade duration
+  ]);
 </script>
+
 
 Stay put...more projects are coming soon!
 
