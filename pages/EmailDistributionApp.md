@@ -52,25 +52,28 @@ Date Added: April 6, 2025
 
 **Project description:** 
 
-The Email Distribution PowerApp was built to address the following business requirements:
-* Ability to quickly access and update Points of Contact (POC) - both internal external - associated to a specific account...in this case, Healthcare Facilities (HCF).
-* Ability to send a report (as an attachment) to the HCF's Points of Contact with automated email language based on the report type.
-* Ability to track reports that have already been sent
- 
-In order to achieve these business requirements, this app was built with the following features:
-POINTS OF CONTACT SCREEN
-* Quickly review the different POCs associated to each HCF based on a category
-* Instantly unassign POCs from accounts in bulk (useful when accounting for internal/external staffing changes or portfolio assignment restructuring).
-MONTHLY REPORT DISTRIBUTION SCREEN
-* Filtering capabilities of existing HCF accounts
-* Pre-populate email language based on user-defined inputs (ex: Account name, Report Type, Reporting Period, etc.)
-* Filterable logging of reports for staff to know which reports have already been sent to specific HCFs.
-*  Quality assurance measures incorporated:
-    * Ability to review email language and make modifications either directly in app or by copy-paste from external text
-    * Send Test Email to self to ensure the report email and attachments are correct
-    * Verification of email accuracy input required before being able to send offical report email
+The **Email Distribution PowerApp** was developed to meet the following business requirements:
+* Quickly access and update Points of Contact (POCs)—both internal and external—associated with specific accounts, namely Healthcare Facilities (HCFs).
+* Send reports (as attachments) to HCF POCs with automated email content based on the type of report.
+* Track which reports have already been sent.
 
-This two-screen PowerApp delivers substantial power to end-users to ensure QA in the reports being sent, proper tracking of report history, and maintaining accurate Points of Contact internally and externally.
+To meet these needs, the app includes the following features:
+
+**Points of Contact Screen**
+* View POCs associated with each HCF by category.
+* Unassign POCs from accounts in bulk—useful for managing staffing changes or portfolio reassignments.
+
+**Monthly Report Distribution Screen**
+* Filter existing HCF accounts to locate target recipients.
+* Automatically generate email language using user-defined inputs (e.g., account name, report type, reporting period).
+* Maintain a searchable log of sent reports to help staff track which HCFs have received them.
+
+**Quality Assurance Features**
+* Review and edit email content directly in the app or via copy-paste from external sources.
+* Send a test email to yourself to verify the content and attachment accuracy.
+* Require verification of email accuracy before the official report is sent.
+
+This two-screen PowerApp empowers end-users to ensure quality assurance in report distribution, maintain accurate contact information, and efficiently track communication history with both internal and external contacts.
 
 ---
 This Project Leveraged the Following Programs:
