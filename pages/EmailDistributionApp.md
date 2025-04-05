@@ -7,18 +7,7 @@ permalink: /pages/EmailDistributionApp/
 
 ## Email Distribution PowerApp
 Date Added: April 6, 2025
-<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    startImageFader("emailAppImage", [
-      "/images/screenshots/EmailApp1.png",
-      "/images/screenshots/EmailApp2.png",
-      "/images/screenshots/EmailApp3.png",
-      "/images/screenshots/EmailApp4.png"
-    ]);
-  });
-</script>
 <script>
   function openLightbox(imageUrl) {
     const lightbox = document.getElementById('lightbox');
@@ -44,6 +33,20 @@ Date Added: April 6, 2025
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img" src="" />
 </div>
+
+<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    startImageFader("emailAppImage", [
+      "/images/screenshots/EmailApp1.png",
+      "/images/screenshots/EmailApp2.png",
+      "/images/screenshots/EmailApp3.png",
+      "/images/screenshots/EmailApp4.png"
+    ]);
+  });
+</script>
+
 
 <!--<div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
