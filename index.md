@@ -36,7 +36,7 @@
   #emailAppImage {
     max-width: 100%;
     height: auto;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 2s ease-in-out;
     opacity: 1;
   }
 
@@ -58,18 +58,16 @@
   const imageElement = document.getElementById("emailAppImage");
 
   setInterval(() => {
-    // Fade out
+    // Fade out (longer)
     imageElement.classList.add("fade-out");
 
+    // Wait 2s (match transition time), then switch image and fade in
     setTimeout(() => {
-      // Change image source once faded out
       index = (index + 1) % images.length;
       imageElement.src = images[index];
-
-      // Fade back in
       imageElement.classList.remove("fade-out");
-    }, 1000); // Match this with CSS transition duration
-  }, 5000);
+    }, 2000); // Match with CSS transition time
+  }, 6000); // Slightly longer interval to allow for fade duration
 </script>
 
 Stay put...more projects are coming soon!
