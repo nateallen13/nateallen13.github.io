@@ -30,7 +30,7 @@
     Email Distribution App
   </a>
   <span class="project-date">
-    Updated April 6, 2025
+    Updated April 5, 2025
   </span>
 </div>
 
