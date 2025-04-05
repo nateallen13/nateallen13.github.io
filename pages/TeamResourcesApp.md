@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Team Resources
+title: Team Resources App
 ---
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
