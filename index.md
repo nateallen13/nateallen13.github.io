@@ -33,13 +33,13 @@
 </div>
 
 <a href="/pages/EmailDistributionApp">
-  <img id="emailAppImage" src="images/screenshots/UserPicture.jpg" style="max-width: 100%; height: auto;" />
+  <img id="emailAppImage" src="/images/screenshots/OnboardingApp.png" style="max-width: 100%; height: auto;" />
 </a>
 
 <script>
   const images = [
-    "images/screenshots/UserPicture.jpg",
-    "images/dummy_thumbnail.jpg"
+    "/images/screenshots/OnboardingApp.png",
+    "/images/screenshots/ThumbnailResourceApp.png"
   ];
   let index = 0;
 
@@ -48,6 +48,7 @@
     document.getElementById("emailAppImage").src = images[index];
   }, 5000);
 </script>
+
 Stay put...more projects are coming soon!
 
 {% if false %}
