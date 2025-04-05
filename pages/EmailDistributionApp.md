@@ -6,7 +6,7 @@ permalink: /pages/EmailDistributionApp/
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
 ## Email Distribution PowerApp  
-Date Added: April 6, 2025
+Date Updated: April 5, 2025
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
