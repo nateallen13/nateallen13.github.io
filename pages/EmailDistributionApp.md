@@ -35,7 +35,10 @@ Date Added: April 6, 2025
     container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
   }
 </script>
+<!-- Fade Image Preview -->
+<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
 
+**Click any image in the gallery to enlarge.**
 <!-- Image Gallery with Scroll and Arrows -->
 <div class="gallery-wrapper">
   <button class="gallery-nav left" onclick="scrollGallery(-1)">&#10094;</button>
@@ -55,8 +58,7 @@ Date Added: April 6, 2025
   <img id="lightbox-img" src="" />
 </div>
 
-<!-- Fade Image Preview -->
-<img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
+
 
 
 
