@@ -17,12 +17,25 @@ Date Added: April 6, 2025
     ]);
   });
 </script>
+<script>
+  function openLightbox(imageUrl) {
+    const lightbox = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = imageUrl;
+    lightbox.style.display = 'flex';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+</script>
 
 <div class="gallery">
   <img src="/images/gallery/thumb1.jpg" onclick="openLightbox('/images/gallery/full1.jpg')" />
   <img src="/images/gallery/thumb2.jpg" onclick="openLightbox('/images/gallery/full2.jpg')" />
   <img src="/images/gallery/thumb3.jpg" onclick="openLightbox('/images/gallery/full3.jpg')" />
 </div>
+
 
 <!-- Lightbox container -->
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
