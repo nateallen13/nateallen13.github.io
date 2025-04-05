@@ -66,7 +66,7 @@ Date Added: April 6, 2025
     position: relative;
     max-width: 100%;
     overflow: hidden;
-    padding: 10px 30px;
+    padding: 10px 40px;
     margin-bottom: 30px;
   }
 
@@ -74,19 +74,22 @@ Date Added: April 6, 2025
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 10px;
+    gap: 15px;
+    padding: 10px 0;
   }
 
   .gallery-row img {
-    width: 120px;
+    width: 250px;
     height: auto;
+    max-height: 180px;
     cursor: pointer;
-    border-radius: 6px;
+    border-radius: 8px;
     transition: transform 0.3s;
+    object-fit: cover;
   }
 
   .gallery-row img:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
   .gallery-nav {
@@ -96,11 +99,12 @@ Date Added: April 6, 2025
     background: #333;
     color: white;
     border: none;
-    font-size: 24px;
-    padding: 5px 10px;
+    font-size: 32px;
+    padding: 8px 14px;
     cursor: pointer;
     z-index: 10;
     border-radius: 5px;
+    opacity: 0.8;
   }
 
   .gallery-nav.left {
@@ -128,6 +132,7 @@ Date Added: April 6, 2025
     border-radius: 8px;
   }
 </style>
+
 
 <!-- VIDEO SECTION -->
 **VIDEO WALKTHROUGH COMING SOON**
