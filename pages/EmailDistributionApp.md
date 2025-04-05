@@ -38,7 +38,10 @@ Date Added: April 6, 2025
 <!-- Fade Image Preview -->
 <img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
 
-**Click any image in the gallery to enlarge.**
+
+<p style="text-align: center; margin-bottom: 0px; margin-top: 0px;">
+  <strong>Click any image in the gallery to enlarge.</strong>
+</p>
 <!-- Image Gallery with Scroll and Arrows -->
 <div class="gallery-wrapper">
   <button class="gallery-nav left" onclick="scrollGallery(-1)">&#10094;</button>
