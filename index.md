@@ -32,9 +32,22 @@
   </span>
 </div>
 
- <a href="/pages/EmailDistributionApp">
- <img src="images/dummy_thumbnail.jpg?raw=true"/>
+<a href="/pages/EmailDistributionApp">
+  <img id="emailAppImage" src="images/screenshots/UserPicture.jpg" style="max-width: 100%; height: auto;" />
 </a>
+
+<script>
+  const images = [
+    "images/screenshots/UserPicture.jpg",
+    "images/screenshots/dummy_thumbnail.jpg"
+  ];
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % images.length;
+    document.getElementById("emailAppImage").src = images[index];
+  }, 5000);
+</script>
 Stay put...more projects are coming soon!
 
 {% if false %}
