@@ -31,9 +31,9 @@ Date Added: April 6, 2025
 </script>
 
 <div class="gallery">
-  <img src="/images/UserPicture.jpg" onclick="openLightbox('/images/gallery/full1.jpg')" />
-  <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/gallery/full2.jpg')" />
-  <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/gallery/full3.jpg')" />
+  <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
+  <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
+  <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
 </div>
 
 
