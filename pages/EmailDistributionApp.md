@@ -5,35 +5,29 @@ permalink: /pages/EmailDistributionApp/
 ---
 <a href="{{ "/" | absolute_url }}" class="site-title back-link">← Back</a>
 
-## Email Distribution PowerApp
+## Email Distribution PowerApp  
 Date Added: April 6, 2025
 
-<script>
-  function openLightbox(imageUrl) {
-    const lightbox = document.getElementById('lightbox');
-    const img = document.getElementById('lightbox-img');
-    img.src = imageUrl;
-    lightbox.style.display = 'flex';
-  }
+<!-- Image Gallery with Scroll and Arrows -->
+<div class="gallery-wrapper">
+  <button class="gallery-nav left" onclick="scrollGallery(-1)">&#10094;</button>
 
-  function closeLightbox() {
-    document.getElementById('lightbox').style.display = 'none';
-  }
-</script>
+  <div class="gallery-row" id="galleryRow">
+    <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
+    <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
+    <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
+    <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
+  </div>
 
-<div class="gallery">
-  <img src="/images/screenshots/EmailApp2.png" onclick="openLightbox('/images/screenshots/EmailApp2.png')" />
-  <img src="/images/screenshots/EmailApp4.png" onclick="openLightbox('/images/screenshots/EmailApp4.png')" />
-  <img src="/images/screenshots/EmailApp1.png" onclick="openLightbox('/images/screenshots/EmailApp1.png')" />
-  <img src="/images/screenshots/EmailApp3.png" onclick="openLightbox('/images/screenshots/EmailApp3.png')" />
+  <button class="gallery-nav right" onclick="scrollGallery(1)">&#10095;</button>
 </div>
-
 
 <!-- Lightbox container -->
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img" src="" />
 </div>
 
+<!-- Fade Image Preview -->
 <img id="emailAppImage" class="fade-image" src="/images/screenshots/EmailApp1.png" style="display: block; margin: 20px auto;" />
 
 <script>
@@ -45,14 +39,98 @@ Date Added: April 6, 2025
       "/images/screenshots/EmailApp4.png"
     ]);
   });
+
+  function openLightbox(imageUrl) {
+    const lightbox = document.getElementById('lightbox');
+    const img = document.getElementById('lightbox-img');
+    img.src = imageUrl;
+    lightbox.style.display = 'flex';
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+
+  function scrollGallery(direction) {
+    const container = document.getElementById('galleryRow');
+    const scrollAmount = 200;
+    container.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+  }
 </script>
 
+<!-- GALLERY + LIGHTBOX STYLES -->
+<style>
+  .gallery-wrapper {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+  }
 
-<!--<div class="video-wrapper">
-  <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
-</div>-->
+  .gallery-row {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+  }
 
+  .gallery-row img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.3s;
+  }
+
+  .gallery-row img:hover {
+    transform: scale(1.05);
+  }
+
+  .gallery-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #333;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 5px;
+  }
+
+  .gallery-nav.left {
+    left: 0;
+  }
+
+  .gallery-nav.right {
+    right: 0;
+  }
+
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+  }
+</style>
+
+<!-- VIDEO SECTION -->
 **VIDEO WALKTHROUGH COMING SOON**
+
+---
 
 **Project description:** 
 
@@ -80,6 +158,7 @@ To meet these needs, the app includes the following features:
 This two-screen PowerApp empowers end-users to ensure quality assurance in report distribution, maintain accurate contact information, and efficiently track communication history with both internal and external contacts.
 
 ---
+
 This Project Leveraged the Following Programs:
 ---
 
@@ -109,16 +188,18 @@ This Project Leveraged the Following Programs:
     gap: 15px;
     justify-content: center;
   }
+
   .tech-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70px; /* Adjust width for compact layout */
+    width: 70px;
     text-align: center;
-    font-size: 12px; /* Reduce text size */
+    font-size: 12px;
   }
+
   .tech-item img {
-    width: 30px; /* Set small icon size */
+    width: 30px;
     height: 30px;
   }
 </style>
