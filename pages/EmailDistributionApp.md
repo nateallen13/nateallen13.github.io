@@ -17,6 +17,18 @@ Date Added: April 6, 2025
     ]);
   });
 </script>
+
+<div class="gallery">
+  <img src="/images/gallery/thumb1.jpg" onclick="openLightbox('/images/gallery/full1.jpg')" />
+  <img src="/images/gallery/thumb2.jpg" onclick="openLightbox('/images/gallery/full2.jpg')" />
+  <img src="/images/gallery/thumb3.jpg" onclick="openLightbox('/images/gallery/full3.jpg')" />
+</div>
+
+<!-- Lightbox container -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" />
+</div>
+
 <!--<div class="video-wrapper">
   <iframe src="https://www.youtube.com/embed/Db7V9Un1En0" frameborder="0" allowfullscreen></iframe>
 </div>-->
